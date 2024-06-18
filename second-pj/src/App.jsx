@@ -4,7 +4,8 @@ import Content from "./components/Content";
 
 export default function App() {
   return (
-    <main id="mainL">
+    // <main id="mainL">
+    <main className="w-full min-h-screen p-4 grid grid-cols-[20%_1fr] grid-rows-[3rem_1fr]">
       <NavBar></NavBar>
       <Menu></Menu>
       <Content></Content>
